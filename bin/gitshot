@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require 'gitshot'
+
+if ARGV[0] != "install"
+  puts "Usage: gitshot install"
+  exit(1)
+end
+
+if !File.exists?(".git")
+  puts "No .git directory found."
+  exit(1)
+end
+
+Gitshot::Hook.new.install
+puts "Gitshot installed #{Gitshot::Hook::POST_COMMIT_HOOK_PATH}"
