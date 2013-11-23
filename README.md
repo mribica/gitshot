@@ -19,4 +19,4 @@
 % gitshot install
 ~~~
 
-git shot will now take a picture after every commit in this repo.
+gitshot will now take a picture after every commit in this repo.
