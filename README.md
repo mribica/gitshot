@@ -1,10 +1,7 @@
 # Install
 
 ~~~
-% git clone git@github.com:mribica/gitshot.git
-% cd gitshot
-% gem build gitshot.gemspec
-% gem install gitshot-0.0.1.gem
+% gem install gitshot
 ~~~
 
 # Dependencies
